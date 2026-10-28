@@ -1,0 +1,30 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.small-text {
+  font-size: 14px;
+}
