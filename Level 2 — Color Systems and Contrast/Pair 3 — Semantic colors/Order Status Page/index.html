@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atelier — Order Tracking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">ATELIER<span> / GOODS</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#order">Your Order</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <main class="order-page" id="order">
+    <p class="eyebrow">CUSTOMER CARE / ORDER 2048</p>
+
+    <section class="order-hero">
+      <div>
+        <p class="order-label">YOUR ORDER STATUS</p>
+        <h1>Your package<br>is on its way.</h1>
+        <p class="order-copy">
+          Your order has left our warehouse. Here is the latest
+          information about your delivery.
+        </p>
+      </div>
+
+      <div class="delivery-card">
+        <p>ESTIMATED DELIVERY</p>
+        <h2>Friday, 30 October</h2>
+        <span class="status-pill status-success">
+          In transit
+        </span>
+      </div>
+    </section>
+
+    <section class="order-details">
+      <h2>Delivery progress</h2>
+
+      <div class="progress-row">
+        <span class="step-icon">✓</span>
+        <div>
+          <h3>Order confirmed</h3>
+          <p>Your order has been received.</p>
+        </div>
+        <span class="status-pill status-success">Complete</span>
+      </div>
+
+      <div class="progress-row">
+        <span class="step-icon">✓</span>
+        <div>
+          <h3>Packed and dispatched</h3>
+          <p>Your package has left our warehouse.</p>
+        </div>
+        <span class="status-pill status-success">Complete</span>
+      </div>
+
+      <div class="progress-row">
+        <span class="step-icon">!</span>
+        <div>
+          <h3>Delivery update</h3>
+          <p>A weather delay may affect the delivery window.</p>
+        </div>
+        <span class="status-pill status-warning">Delayed</span>
+      </div>
+
+      <div class="progress-row">
+        <span class="step-icon">i</span>
+        <div>
+          <h3>Delivered</h3>
+          <p>We will notify you when your package arrives.</p>
+        </div>
+        <span class="status-pill status-info">Pending</span>
+      </div>
+    </section>
+
+    <section class="support-notice" id="support">
+      <h2>Need help with your delivery?</h2>
+      <p>
+        If the estimated date changes, we will provide an update.
+        Contact support if you need assistance.
+      </p>
+      <a href="mailto:support@example.com">Contact Support</a>
+    </section>
+  </main>
+</body>
+</html>
