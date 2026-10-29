@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: rgba(7, 50, 7, 0.62);
+    --secondary: rgb(71, 166, 71);
+    --accent: rgba(255, 255, 255, 0.743);
+    --text: rgba(255, 255, 255, 0.88);
+}
+.site-header{
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 12px;
+}
+.brand{
+    font-size: 30px;
+    font-weight: 700;
+}
+nav {
+    display: flex;
+    gap: 16px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--text);
+    font-size: 20px;
+    font-weight: 400;
+}
+.hero{
+    background-color: var(--secondary);
+    padding: 40px 10px;
+    line-height: 1.7;
+}
+.eyebrow{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.hero .intro{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.cta{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 450;
+    background-color: var(--primary);
+    padding: 10px 4px;
+}
+#work,#about{
+    background-color: rgba(245, 245, 245, 0.713);
+    padding: 40px 10px;
+    line-height: 1.5;
+    background-color: var(--primary);
+}
+#work h2,#about h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+#work p,#about p{
+    font-weight: 400;
+    font-size: 18px;
+}
