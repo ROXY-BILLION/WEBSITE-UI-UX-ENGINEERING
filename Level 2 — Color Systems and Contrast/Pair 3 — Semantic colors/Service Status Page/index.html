@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Northstar Systems — Service Status</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Northstar Systems home">
+      <span class="brand-mark">N</span>
+      NORTHSTAR<span class="brand-light">/SYSTEMS</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#history">History</a>
+      <a href="#subscribe">Updates</a>
+    </nav>
+
+    <span class="live-label">
+      <span class="live-dot"></span>
+      LIVE STATUS
+    </span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">SYSTEM OPERATIONS / 001</p>
+
+      <div class="hero-layout">
+        <div>
+          <h1>Everything<br>is <em>under control.</em></h1>
+          <p class="hero-copy">
+            Real-time health updates for Northstar's digital
+            infrastructure. Clear information, without the noise.
+          </p>
+        </div>
+
+        <div class="health-card">
+          <span class="health-icon" aria-hidden="true">✓</span>
+          <p class="card-label">OVERALL SYSTEM HEALTH</p>
+          <h2>All systems operational</h2>
+          <p class="health-description">
+            All monitored services are running normally.
+          </p>
+          <div class="health-footer">
+            <span class="status-pill status-success">
+              Operational
+            </span>
+            <span>Updated just now</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="metrics">
+        <div>
+          <span class="metric-value">99.98%</span>
+          <span class="metric-label">30-day uptime</span>
+        </div>
+        <div>
+          <span class="metric-value">142 ms</span>
+          <span class="metric-label">Average response</span>
+        </div>
+        <div>
+          <span class="metric-value">0</span>
+          <span class="metric-label">Active incidents</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">INFRASTRUCTURE / 004</p>
+          <h2>Service health</h2>
+        </div>
+        <p class="section-note">Current operational status</p>
+      </div>
+
+      <div class="service-list">
+        <article class="service-row">
+          <div class="service-number">01</div>
+          <div class="service-info">
+            <h3>Core API</h3>
+            <p>Requests, authentication and data access</p>
+          </div>
+          <span class="status-pill status-success">
+            <span aria-hidden="true">✓</span> Operational
+          </span>
+        </article>
+
+        <article class="service-row">
+          <div class="service-number">02</div>
+          <div class="service-info">
+            <h3>Database Cluster</h3>
+            <p>Data storage and query processing</p>
+          </div>
+          <span class="status-pill status-warning">
+            <span aria-hidden="true">!</span> Degraded
+          </span>
+        </article>
+
+        <article class="service-row">
+          <div class="service-number">03</div>
+          <div class="service-info">
+            <h3>Payment Gateway</h3>
+            <p>Payment processing and verification</p>
+          </div>
+          <span class="status-pill status-danger">
+            <span aria-hidden="true">×</span> Outage
+          </span>
+        </article>
+
+        <article class="service-row">
+          <div class="service-number">04</div>
+          <div class="service-info">
+            <h3>Notification Service</h3>
+            <p>Email delivery and system notifications</p>
+          </div>
+          <span class="status-pill status-info">
+            <span aria-hidden="true">i</span> Maintenance
+          </span>
+        </article>
+      </div>
+    </section>
+
+    <section class="notice" id="history">
+      <span class="notice-symbol" aria-hidden="true">i</span>
+      <div>
+        <p class="eyebrow">ENGINEERING UPDATE</p>
+        <h2>Maintenance in progress</h2>
+        <p>
+          Notification delivery may be delayed while scheduled
+          maintenance is completed. Core API access remains available.
+        </p>
+      </div>
+    </section>
+
+    <footer id="subscribe">
+      <p>NORTHSTAR SYSTEMS / STATUS CENTER</p>
+      <p>Clear signals. Reliable systems.</p>
+    </footer>
+  </main>
+</body>
+</html>
