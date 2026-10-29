@@ -1,0 +1,112 @@
+:root {
+  --primary: #163B65;
+  --secondary: #E8EEF5;
+  --accent: #F59E0B;
+  --text: #263445;
+  --white: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: var(--text);
+  background-color: var(--white);
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.hero {
+  padding: 64px 24px;
+  background-color: var(--secondary);
+}
+
+.eyebrow {
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+h1 {
+  max-width: 700px;
+  color: var(--primary);
+  font-size: clamp(34px, 5vw, 52px);
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.intro {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 13px 18px;
+  background-color: var(--accent);
+  color: #172033;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.services,
+.about {
+  padding: 36px 24px;
+}
+
+h2 {
+  color: var(--primary);
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.services {
+  background-color: var(--white);
+}
+
+.about {
+  background-color: var(--secondary);
+}
+
+.services p,
+.about p {
+  max-width: 650px;
+  font-size: 16px;
+  line-height: 1.7;
+}
